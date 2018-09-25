@@ -10,11 +10,12 @@ BREAKING CHANGES:
 
 * Go API
 - [node] Remove node.RunForever
+- [config] \#2232 timeouts as time.Duration, not ints
 
 FEATURES:
 
 IMPROVEMENTS:
-- [config] added ValidateBasic method, which performs basic checks
+- [config] \#2232 added ValidateBasic method, which performs basic checks
 
 BUG FIXES:
 - [node] \#2434 Make node respond to signal interrupts while sleeping for genesis time
