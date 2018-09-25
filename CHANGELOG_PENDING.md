@@ -14,6 +14,7 @@ BREAKING CHANGES:
 FEATURES:
 
 IMPROVEMENTS:
+- [config] added ValidateBasic method, which performs basic checks
 
 BUG FIXES:
 - [node] \#2434 Make node respond to signal interrupts while sleeping for genesis time
