@@ -102,6 +102,11 @@
   name = "golang.org/x/net"
   branch = "master"
 
+[[constraint]]
+  name = "github.com/tendermint/tendermint"
+  branch = "master"
+  source = "github.com/Alex-duzhichao/tendermint"
+
 [prune]
   go-tests = true
   unused-packages = true
