@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tendermint/tendermint/abci/example/code"
-	"github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	dbm "github.com/tendermint/tendermint/libs/db"
+	"github.com/Alex-duzhichao/tendermint/abci/example/code"
+	"github.com/Alex-duzhichao/tendermint/abci/types"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	dbm "github.com/Alex-duzhichao/tendermint/libs/db"
 )
 
 var (

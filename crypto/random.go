@@ -9,7 +9,7 @@ import (
 	"io"
 	"sync"
 
-	. "github.com/tendermint/tendermint/libs/common"
+	. "github.com/Alex-duzhichao/tendermint/libs/common"
 )
 
 var gRandInfo *randInfo

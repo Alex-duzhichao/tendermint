@@ -4,15 +4,15 @@ import (
 	"net"
 	"testing"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
-	dbm "github.com/tendermint/tendermint/libs/db"
-	"github.com/tendermint/tendermint/libs/log"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	dbm "github.com/Alex-duzhichao/tendermint/libs/db"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/Alex-duzhichao/tendermint/config"
+	"github.com/Alex-duzhichao/tendermint/p2p"
+	"github.com/Alex-duzhichao/tendermint/proxy"
+	sm "github.com/Alex-duzhichao/tendermint/state"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 func makeStateAndBlockStore(logger log.Logger) (sm.State, *BlockStore) {

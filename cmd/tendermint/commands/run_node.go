@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	nm "github.com/tendermint/tendermint/node"
+	nm "github.com/Alex-duzhichao/tendermint/node"
 )
 
 // AddNodeFlags exposes some common configuration options on the command-line

@@ -3,7 +3,7 @@ package core
 import (
 	"github.com/pkg/errors"
 
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	ctypes "github.com/Alex-duzhichao/tendermint/rpc/core/types"
 )
 
 // Get network info.

@@ -3,16 +3,16 @@ package core
 import (
 	"time"
 
-	"github.com/tendermint/tendermint/consensus"
-	crypto "github.com/tendermint/tendermint/crypto"
-	dbm "github.com/tendermint/tendermint/libs/db"
-	"github.com/tendermint/tendermint/libs/log"
-	mempl "github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/types"
+	"github.com/Alex-duzhichao/tendermint/consensus"
+	crypto "github.com/Alex-duzhichao/tendermint/crypto"
+	dbm "github.com/Alex-duzhichao/tendermint/libs/db"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
+	mempl "github.com/Alex-duzhichao/tendermint/mempool"
+	"github.com/Alex-duzhichao/tendermint/p2p"
+	"github.com/Alex-duzhichao/tendermint/proxy"
+	sm "github.com/Alex-duzhichao/tendermint/state"
+	"github.com/Alex-duzhichao/tendermint/state/txindex"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 const (

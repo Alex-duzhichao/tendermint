@@ -5,12 +5,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
 
-	"github.com/tendermint/tendermint/lite"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/Alex-duzhichao/tendermint/lite"
+	rpcclient "github.com/Alex-duzhichao/tendermint/rpc/client"
+	ctypes "github.com/Alex-duzhichao/tendermint/rpc/core/types"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 // KeyProof represents a proof of existence or absence of a single key.
@@ -85,7 +85,7 @@ func GetWithProofOptions(path string, key []byte, opts rpcclient.ABCIQueryOption
 	return &ctypes.ResultABCIQuery{Response: resp}, nil, nil
 
 	/* // TODO refactor so iavl stuff is not in tendermint core
-	   // https://github.com/tendermint/tendermint/issues/1183
+	   // https://github.com/Alex-duzhichao/tendermint/issues/1183
 	if len(resp.Value) > 0 {
 		// The key was found, construct a proof of existence.
 		proof, err := iavl.ReadKeyProof(resp.Proof)

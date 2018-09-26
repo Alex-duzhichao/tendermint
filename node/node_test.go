@@ -10,12 +10,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/Alex-duzhichao/tendermint/config"
+	"github.com/Alex-duzhichao/tendermint/types"
 
-	tmtime "github.com/tendermint/tendermint/types/time"
+	tmtime "github.com/Alex-duzhichao/tendermint/types/time"
 )
 
 func TestNodeStartStop(t *testing.T) {

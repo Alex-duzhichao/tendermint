@@ -9,7 +9,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 import _ "github.com/golang/protobuf/ptypes/timestamp"
-import common "github.com/tendermint/tendermint/libs/common"
+import common "github.com/Alex-duzhichao/tendermint/libs/common"
 
 import time "time"
 

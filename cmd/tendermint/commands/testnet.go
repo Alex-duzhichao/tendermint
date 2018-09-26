@@ -9,12 +9,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cfg "github.com/tendermint/tendermint/config"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	cfg "github.com/Alex-duzhichao/tendermint/config"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	"github.com/Alex-duzhichao/tendermint/p2p"
+	"github.com/Alex-duzhichao/tendermint/privval"
+	"github.com/Alex-duzhichao/tendermint/types"
+	tmtime "github.com/Alex-duzhichao/tendermint/types/time"
 )
 
 var (

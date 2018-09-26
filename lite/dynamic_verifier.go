@@ -3,9 +3,9 @@ package lite
 import (
 	"bytes"
 
-	log "github.com/tendermint/tendermint/libs/log"
-	lerr "github.com/tendermint/tendermint/lite/errors"
-	"github.com/tendermint/tendermint/types"
+	log "github.com/Alex-duzhichao/tendermint/libs/log"
+	lerr "github.com/Alex-duzhichao/tendermint/lite/errors"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 var _ Verifier = (*DynamicVerifier)(nil)

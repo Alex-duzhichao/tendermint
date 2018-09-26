@@ -2,7 +2,7 @@ package blockchain
 
 import (
 	"github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/types"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 var cdc = amino.NewCodec()

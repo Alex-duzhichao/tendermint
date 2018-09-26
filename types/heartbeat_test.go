@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto/ed25519"
+	"github.com/Alex-duzhichao/tendermint/crypto/ed25519"
 )
 
 func TestHeartbeatCopy(t *testing.T) {

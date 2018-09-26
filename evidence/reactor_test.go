@@ -10,12 +10,12 @@ import (
 
 	"github.com/go-kit/kit/log/term"
 
-	dbm "github.com/tendermint/tendermint/libs/db"
-	"github.com/tendermint/tendermint/libs/log"
+	dbm "github.com/Alex-duzhichao/tendermint/libs/db"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/Alex-duzhichao/tendermint/config"
+	"github.com/Alex-duzhichao/tendermint/p2p"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 // evidenceLogger is a TestingLogger which uses a different

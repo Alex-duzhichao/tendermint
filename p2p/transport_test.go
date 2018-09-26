@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto/ed25519"
+	"github.com/Alex-duzhichao/tendermint/crypto/ed25519"
 )
 
 func TestTransportMultiplexConnFilter(t *testing.T) {

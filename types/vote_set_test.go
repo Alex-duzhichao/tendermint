@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tendermint/tendermint/crypto"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	tst "github.com/tendermint/tendermint/libs/test"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/Alex-duzhichao/tendermint/crypto"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	tst "github.com/Alex-duzhichao/tendermint/libs/test"
+	tmtime "github.com/Alex-duzhichao/tendermint/types/time"
 )
 
 // NOTE: privValidators are in order

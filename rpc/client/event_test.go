@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/rpc/client"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/Alex-duzhichao/tendermint/abci/types"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	"github.com/Alex-duzhichao/tendermint/rpc/client"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 var waitForEventTimeout = 5 * time.Second

@@ -6,13 +6,13 @@ import (
 	"time"
 
 	amino "github.com/tendermint/go-amino"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
+	abci "github.com/Alex-duzhichao/tendermint/abci/types"
+	"github.com/Alex-duzhichao/tendermint/libs/clist"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/Alex-duzhichao/tendermint/config"
+	"github.com/Alex-duzhichao/tendermint/p2p"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 const (

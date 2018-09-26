@@ -9,8 +9,8 @@ import (
 	"github.com/tendermint/ed25519"
 	"github.com/tendermint/ed25519/extra25519"
 	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/tmhash"
+	"github.com/Alex-duzhichao/tendermint/crypto"
+	"github.com/Alex-duzhichao/tendermint/crypto/tmhash"
 )
 
 //-------------------------------------

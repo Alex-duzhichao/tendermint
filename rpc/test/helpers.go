@@ -8,19 +8,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
+	abci "github.com/Alex-duzhichao/tendermint/abci/types"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
 
-	cfg "github.com/tendermint/tendermint/config"
-	nm "github.com/tendermint/tendermint/node"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/proxy"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	core_grpc "github.com/tendermint/tendermint/rpc/grpc"
-	rpcclient "github.com/tendermint/tendermint/rpc/lib/client"
+	cfg "github.com/Alex-duzhichao/tendermint/config"
+	nm "github.com/Alex-duzhichao/tendermint/node"
+	"github.com/Alex-duzhichao/tendermint/p2p"
+	"github.com/Alex-duzhichao/tendermint/privval"
+	"github.com/Alex-duzhichao/tendermint/proxy"
+	ctypes "github.com/Alex-duzhichao/tendermint/rpc/core/types"
+	core_grpc "github.com/Alex-duzhichao/tendermint/rpc/grpc"
+	rpcclient "github.com/Alex-duzhichao/tendermint/rpc/lib/client"
 )
 
 var globalConfig *cfg.Config

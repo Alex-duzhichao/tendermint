@@ -12,14 +12,14 @@ import (
 	"github.com/pkg/errors"
 
 	amino "github.com/tendermint/go-amino"
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	auto "github.com/tendermint/tendermint/libs/autofile"
-	"github.com/tendermint/tendermint/libs/clist"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/Alex-duzhichao/tendermint/abci/types"
+	cfg "github.com/Alex-duzhichao/tendermint/config"
+	auto "github.com/Alex-duzhichao/tendermint/libs/autofile"
+	"github.com/Alex-duzhichao/tendermint/libs/clist"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
+	"github.com/Alex-duzhichao/tendermint/proxy"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 // PreCheckFunc is an optional filter executed before CheckTx and rejects

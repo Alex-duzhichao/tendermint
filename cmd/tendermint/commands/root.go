@@ -6,10 +6,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/cli"
-	tmflags "github.com/tendermint/tendermint/libs/cli/flags"
-	"github.com/tendermint/tendermint/libs/log"
+	cfg "github.com/Alex-duzhichao/tendermint/config"
+	"github.com/Alex-duzhichao/tendermint/libs/cli"
+	tmflags "github.com/Alex-duzhichao/tendermint/libs/cli/flags"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
 )
 
 var (

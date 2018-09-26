@@ -6,7 +6,7 @@ package events
 import (
 	"sync"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
 )
 
 // Generic event data can be typed and registered with tendermint/go-amino

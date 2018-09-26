@@ -9,16 +9,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	dbm "github.com/tendermint/tendermint/libs/db"
-	"github.com/tendermint/tendermint/libs/log"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/Alex-duzhichao/tendermint/abci/example/kvstore"
+	abci "github.com/Alex-duzhichao/tendermint/abci/types"
+	"github.com/Alex-duzhichao/tendermint/crypto/ed25519"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	dbm "github.com/Alex-duzhichao/tendermint/libs/db"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
+	tmtime "github.com/Alex-duzhichao/tendermint/types/time"
 
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/Alex-duzhichao/tendermint/proxy"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 var (

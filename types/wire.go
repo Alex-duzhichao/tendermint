@@ -2,7 +2,7 @@ package types
 
 import (
 	"github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/crypto/encoding/amino"
+	"github.com/Alex-duzhichao/tendermint/crypto/encoding/amino"
 )
 
 var cdc = amino.NewCodec()

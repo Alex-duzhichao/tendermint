@@ -3,9 +3,9 @@ package dummy
 import (
 	"net"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
-	p2p "github.com/tendermint/tendermint/p2p"
-	tmconn "github.com/tendermint/tendermint/p2p/conn"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	p2p "github.com/Alex-duzhichao/tendermint/p2p"
+	tmconn "github.com/Alex-duzhichao/tendermint/p2p/conn"
 )
 
 type peer struct {

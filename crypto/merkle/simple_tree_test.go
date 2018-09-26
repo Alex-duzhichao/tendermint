@@ -3,12 +3,12 @@ package merkle
 import (
 	"bytes"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
-	. "github.com/tendermint/tendermint/libs/test"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	. "github.com/Alex-duzhichao/tendermint/libs/test"
 
 	"testing"
 
-	"github.com/tendermint/tendermint/crypto/tmhash"
+	"github.com/Alex-duzhichao/tendermint/crypto/tmhash"
 )
 
 type testItem []byte

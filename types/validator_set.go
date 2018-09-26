@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
-	cmn "github.com/tendermint/tendermint/libs/common"
+	"github.com/Alex-duzhichao/tendermint/crypto/merkle"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
 )
 
 // ValidatorSet represent a set of *Validator at a given height.

@@ -2,7 +2,7 @@ package conn
 
 import (
 	"github.com/tendermint/go-amino"
-	cryptoAmino "github.com/tendermint/tendermint/crypto/encoding/amino"
+	cryptoAmino "github.com/Alex-duzhichao/tendermint/crypto/encoding/amino"
 )
 
 var cdc *amino.Codec = amino.NewCodec()

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tendermint/tendermint/types"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 // FullCommit is a signed header (the block header and a commit that signs it),

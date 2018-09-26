@@ -10,17 +10,17 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	bc "github.com/tendermint/tendermint/blockchain"
-	cfg "github.com/tendermint/tendermint/config"
-	auto "github.com/tendermint/tendermint/libs/autofile"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/db"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	"github.com/Alex-duzhichao/tendermint/abci/example/kvstore"
+	bc "github.com/Alex-duzhichao/tendermint/blockchain"
+	cfg "github.com/Alex-duzhichao/tendermint/config"
+	auto "github.com/Alex-duzhichao/tendermint/libs/autofile"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	"github.com/Alex-duzhichao/tendermint/libs/db"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
+	"github.com/Alex-duzhichao/tendermint/privval"
+	"github.com/Alex-duzhichao/tendermint/proxy"
+	sm "github.com/Alex-duzhichao/tendermint/state"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 // WALWithNBlocks generates a consensus WAL. It does this by spining up a

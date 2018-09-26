@@ -7,9 +7,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	cmn "github.com/tendermint/tendermint/libs/common"
+	"github.com/Alex-duzhichao/tendermint/crypto/merkle"
+	"github.com/Alex-duzhichao/tendermint/crypto/tmhash"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
 )
 
 var (

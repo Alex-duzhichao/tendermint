@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tendermint/tendermint/consensus/types"
-	tmtypes "github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/Alex-duzhichao/tendermint/consensus/types"
+	tmtypes "github.com/Alex-duzhichao/tendermint/types"
+	tmtime "github.com/Alex-duzhichao/tendermint/types/time"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

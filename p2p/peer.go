@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/log"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
 
-	"github.com/tendermint/tendermint/config"
-	tmconn "github.com/tendermint/tendermint/p2p/conn"
+	"github.com/Alex-duzhichao/tendermint/config"
+	tmconn "github.com/Alex-duzhichao/tendermint/p2p/conn"
 )
 
 var testIPSuffix uint32

@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	amino "github.com/tendermint/go-amino"
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	tmquery "github.com/tendermint/tendermint/libs/pubsub/query"
+	tmpubsub "github.com/Alex-duzhichao/tendermint/libs/pubsub"
+	tmquery "github.com/Alex-duzhichao/tendermint/libs/pubsub/query"
 )
 
 // Reserved event types (alphabetically sorted).

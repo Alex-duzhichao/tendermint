@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	cmn "github.com/tendermint/tendermint/libs/common"
+	abci "github.com/Alex-duzhichao/tendermint/abci/types"
+	"github.com/Alex-duzhichao/tendermint/crypto/merkle"
+	"github.com/Alex-duzhichao/tendermint/crypto/tmhash"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
 )
 
 // Tx is an arbitrary byte array.

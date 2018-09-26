@@ -3,12 +3,12 @@ package core
 import (
 	"fmt"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
 
-	tmquery "github.com/tendermint/tendermint/libs/pubsub/query"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/tendermint/tendermint/state/txindex/null"
-	"github.com/tendermint/tendermint/types"
+	tmquery "github.com/Alex-duzhichao/tendermint/libs/pubsub/query"
+	ctypes "github.com/Alex-duzhichao/tendermint/rpc/core/types"
+	"github.com/Alex-duzhichao/tendermint/state/txindex/null"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 // Tx allows you to query the transaction results. `nil` could mean the

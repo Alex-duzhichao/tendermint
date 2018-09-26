@@ -3,10 +3,10 @@ package cryptoAmino
 import (
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/multisig"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/Alex-duzhichao/tendermint/crypto"
+	"github.com/Alex-duzhichao/tendermint/crypto/ed25519"
+	"github.com/Alex-duzhichao/tendermint/crypto/multisig"
+	"github.com/Alex-duzhichao/tendermint/crypto/secp256k1"
 )
 
 var cdc = amino.NewCodec()

@@ -10,7 +10,7 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
+	tmpubsub "github.com/Alex-duzhichao/tendermint/libs/pubsub"
 )
 
 //----------------------------------------
@@ -159,7 +159,7 @@ type WSRPCConnection interface {
 	Codec() *amino.Codec
 }
 
-// EventSubscriber mirros tendermint/tendermint/types.EventBusSubscriber
+// EventSubscriber mirros Alex-duzhichao/tendermint/types.EventBusSubscriber
 type EventSubscriber interface {
 	Subscribe(ctx context.Context, subscriber string, query tmpubsub.Query, out chan<- interface{}) error
 	Unsubscribe(ctx context.Context, subscriber string, query tmpubsub.Query) error

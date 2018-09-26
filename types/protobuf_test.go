@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	abci "github.com/Alex-duzhichao/tendermint/abci/types"
+	"github.com/Alex-duzhichao/tendermint/crypto"
+	"github.com/Alex-duzhichao/tendermint/crypto/ed25519"
+	"github.com/Alex-duzhichao/tendermint/crypto/secp256k1"
+	tmtime "github.com/Alex-duzhichao/tendermint/types/time"
 )
 
 func TestABCIPubKey(t *testing.T) {

@@ -4,11 +4,11 @@ import (
 	"flag"
 	"os"
 
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/Alex-duzhichao/tendermint/crypto/ed25519"
+	cmn "github.com/Alex-duzhichao/tendermint/libs/common"
+	"github.com/Alex-duzhichao/tendermint/libs/log"
 
-	"github.com/tendermint/tendermint/privval"
+	"github.com/Alex-duzhichao/tendermint/privval"
 )
 
 func main() {

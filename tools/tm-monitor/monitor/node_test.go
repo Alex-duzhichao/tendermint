@@ -7,12 +7,12 @@ import (
 	"github.com/stretchr/testify/require"
 
 	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	em "github.com/tendermint/tendermint/tools/tm-monitor/eventmeter"
-	mock "github.com/tendermint/tendermint/tools/tm-monitor/mock"
-	monitor "github.com/tendermint/tendermint/tools/tm-monitor/monitor"
-	tmtypes "github.com/tendermint/tendermint/types"
+	"github.com/Alex-duzhichao/tendermint/crypto/ed25519"
+	ctypes "github.com/Alex-duzhichao/tendermint/rpc/core/types"
+	em "github.com/Alex-duzhichao/tendermint/tools/tm-monitor/eventmeter"
+	mock "github.com/Alex-duzhichao/tendermint/tools/tm-monitor/mock"
+	monitor "github.com/Alex-duzhichao/tendermint/tools/tm-monitor/monitor"
+	tmtypes "github.com/Alex-duzhichao/tendermint/types"
 )
 
 const (

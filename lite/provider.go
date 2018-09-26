@@ -1,8 +1,8 @@
 package lite
 
 import (
-	log "github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/types"
+	log "github.com/Alex-duzhichao/tendermint/libs/log"
+	"github.com/Alex-duzhichao/tendermint/types"
 )
 
 // Provider provides information for the lite client to sync validators.
